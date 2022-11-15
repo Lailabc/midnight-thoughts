@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(168, 165, 165);
+    /* align content vertically */
+    vertical-align: baseline;
+}
+#title{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* choose quality of text over speed (or vice versa) */
+    text-rendering: optimizeLegibility;
+    /* Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter. */
+    -webkit-font-smoothing: antialiased;
+}
+h1{
+
+    font-size: 250px;
+    text-align: justify;
+    text-transform: capitalize;
+
+}
+
+#thoughts{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    height: fit-content;
+}
+
+h2{
+    
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30%;
+
+}
