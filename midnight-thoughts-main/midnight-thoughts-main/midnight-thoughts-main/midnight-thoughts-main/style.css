@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(168, 165, 165);
+    /* align content vertically */
+    vertical-align: baseline;
+}
+
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    /* choose quality of text over speed (or vice versa) */
+    text-rendering: optimizeLegibility;
+    /* Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter. */
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+
+    font-size: 200px;
+    text-align: justify;
+    text-transform: capitalize;
+
+}
+
+/* animation color */
+@keyframes example {
+    0% {
+        color: rgb(168, 165, 165);
+    }
+
+    100% {
+        color: rgb(8, 8, 8);
+    }
+}
+
+h2 {
+    font-size: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    /* target animation set above */
+    animation-name: example;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+
+}
+
+h3 {
+    font-size: 250px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+#thoughts {
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    height: fit-content;
+}
+
+h4 {
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+   
+
+.button-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	width:50%;
+	height:800px;
+	border: 2px solid white;
+	position:relative;
+    transition: bottom linear 1s;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(168, 165, 165);
+
+}
+
+/* .image-container{
+
+    bottom: 800px;
+   
+}
+
+.image-container-down{
+ 
+	bottom:0px;
+} */
+
+#egg{
+    width:208px;
+    display: block;
+}
+
+h6{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20%;
+    
+}
